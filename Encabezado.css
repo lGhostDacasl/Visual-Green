@@ -1,0 +1,251 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: lato;
+}
+
+body{
+    margin: 0%;
+}
+
+header
+{
+    display: flex;
+    height: 100px;
+	
+    background-color: #88B12B;
+    justify-content:space-between;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom:0px ;
+	
+}
+.Logo
+{
+    display: flex;
+}
+.Logo img{
+    height: 100px;
+	width: 200px;
+	margin-left: 25px;
+	margin-bottom: 0px;
+    
+}
+.Textoen{
+    
+    color: #591850;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 33px;
+    font-weight: bold;
+
+}
+.Menu_navegacion{
+
+	padding: 0;
+	display: flex;
+
+}
+
+nav {
+	margin: 0px auto 0;
+
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color:white ;
+	border-radius: 0px;
+	font-size: 0;
+    justify-content: space-between;
+	border:1px solid black;
+	margin-bottom: 10px;
+
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	border-radius: 0px;
+}
+nav .animation {
+	position: absolute;
+	height: 100% ;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 0px;
+}
+a:nth-child(1) {
+	font-family: 'Quicksand Bold', arial;
+	width: 300px;
+}
+a:nth-child(2) {
+	font-family: 'Quicksand Bold', arial;
+	width: 300px;
+}
+a:nth-child(3) {
+	font-family: 'Quicksand Bold', arial;
+	width: 300px;
+}
+a:nth-child(4) {
+	font-family: 'Quicksand Bold', arial;
+	width: 300px;
+}
+a:nth-child(5) {
+	font-family: 'Quicksand Bold', arial;
+	width: 300px;
+}
+nav .start-Inicio, a:nth-child(1):hover~.animation {
+	width: 300px;
+	left: 0px;
+	background-color: #2697DF;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+nav .start-Contacto, a:nth-child(2):hover~.animation {
+	width: 300px;
+	left: 300px;
+	background-color: 	#D4CE2F;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+nav .start-nosotros, a:nth-child(3):hover~.animation {
+	width: 300px;
+	left: 600px;
+	background-color: #2AAD71;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+nav .start-Curiosidades, a:nth-child(4):hover~.animation {
+	width: 300px;
+	left: 900px;
+	background-color: #EB5312;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+nav .start-Marcas, a:nth-child(5):hover~.animation {
+	width: 320px;
+	left: 1200px;
+	background-color: 	#A20FD9;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+@media (max-width:100px){
+	header{
+		flex-direction: row;
+	}
+	nav{
+		padding:20px 0px;
+	}
+}
+ 
+
+.contenedor {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+
+/* --- --- CONTENEDOR PRINCIPAL --- --- */
+
+.contenido-principal {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.contenido-principal__imagen {
+	vertical-align: top;
+	margin-right: 20px;
+	width: 50%;
+	max-width: 550px;
+}
+
+.contenido-principal__contenedor {
+	width: 50%;
+}
+
+.contenido-principal__titulo {
+	font-weight: normal;
+	font-size: 28px;
+}
+
+.contenido-principal__resumen {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+	color: #591850;
+}
+
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #591850;
+	opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -30px;
+}
+
+.carousel__siguiente {
+	right: -30px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #591850;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+  
+}
+
+

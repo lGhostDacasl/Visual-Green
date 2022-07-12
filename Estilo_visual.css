@@ -1,0 +1,285 @@
+.Titulo_Redes{
+    color: #88B12B;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 50px;
+    font-weight: bold; 
+}
+.Titulo_Redes2{
+    color: #88B12B;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 30px;
+    font-weight: bold; 
+}
+.Texto_encabezado
+{
+	color: #FFF;
+}
+.Texto_visual_Green
+{
+    color: #591850;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 50px;
+    font-weight: bold; 
+}
+.Texto_visual_Green2
+{
+    color: black;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 50px;
+    font-weight: bold; 
+}
+.Texto_sedes
+{
+	color: black;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Border_Carrus
+{	
+	width: flex;
+	height: 1000px;
+	margin-left: 20px;
+	margin-right: 20px;
+    margin-top: 20px;
+	border: 2px solid #000000;
+
+}
+.Border_Carrus{
+    margin-left: 30px;
+}
+.Border_metodos_pago
+{
+    background-color: white;
+	justify-content: center;
+	width: 530px;
+	height: 280px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 250px;
+	
+	border:2px solid black
+}
+
+
+.btn-wsp{
+    position:fixed;
+    width:100px;
+    height:100px; 
+    line-height: 85px;
+    bottom:10px;
+    right:30px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:60px;
+    text-align:center;
+    font-size:90px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+  }
+  .btn-wsp:hover{
+    text-decoration: none;
+    background: #20ba5a;
+    color:#FFF
+  }
+  @media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:80px;
+        height:80px;
+        line-height: 66px;
+  }
+  }
+
+  .contenedor {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+
+/* --- --- CONTENEDOR PRINCIPAL --- --- */
+
+.contenido-principal {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.contenido-principal__imagen {
+	vertical-align: top;
+	margin-right: 20px;
+	width: 50%;
+	max-width: 550px;
+}
+
+.contenido-principal__contenedor {
+	width: 50%;
+}
+
+.contenido-principal__titulo {
+	font-weight: normal;
+	font-size: 28px;
+}
+
+.contenido-principal__resumen {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+	color: #591850;
+}
+
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #591850;
+	opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -30px;
+}
+
+.carousel__siguiente {
+	right: -30px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #591850;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+  
+}
+.Border_sede1
+{
+	justify-content: center;
+background-color: whitesmoke;
+width: 430px;
+height: 300px ;
+
+border-radius: 0px 0px 81px 79px;
+-moz-border-radius: 0px 0px 81px 79px;
+-webkit-border-radius: 0px 0px 81px 79px;
+border:2px solid black
+}
+
+.Border_Chapinero
+{
+	margin-top: 33px;
+	margin-bottom: 33px;
+}
+.Border_nosotros
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+	margin-top: 30px;
+	border: 10px outset #591850; 
+	background-image: url("image6.png");
+    background-repeat: space;
+ 
+}
+.Titulo_somos
+{
+	color: #591850;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 50px;
+    font-weight: bold; 
+}
+.Texto_somos
+{
+	color: black;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menuproductos
+{
+
+    display: flex;
+    height: 120px;
+    margin-bottom: 50px;
+  
+
+
+}
+.menuproductos p{
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.content{
+    margin-top: 2rem;
+}
+
+[data-content]
+{
+    display: none;
+}
+
+.active[data-content]{
+    display: block;
+}
+
+.border_1
+{
+	
+	margin-top: 20px ;
+	margin-bottom: 20px;
+}
+.borde_de_marcas
+{
+	border:3px solid black;
+	margin-bottom: 35px;
+	background-color: whitesmoke;
+	width: flex; 
+	
+}
+.Titulo_marcas_lentes
+{
+	color: #591850;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 50px;
+    font-weight: bold;
+	width: flex; 
+}

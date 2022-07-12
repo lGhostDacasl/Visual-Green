@@ -1,0 +1,615 @@
+.Texto
+{
+    color: #591850;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 12px;
+    font-weight: bold;    
+
+}
+.Texto88
+{
+    color: #591850;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 50px;
+    font-weight: bold;    
+
+}
+.Titulo_redes_visual
+{
+    color: #88B12B;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 50px;
+    font-weight: bold;    
+
+}
+.Text
+{
+	
+
+    color: #591850;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 20px;
+    font-weight: bold;    
+}
+.Texto2
+{
+    color: wheat;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 14px;
+    font-weight: bold;    
+
+}
+.Text2
+{
+	
+
+    color: white;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 20px;
+    font-weight: bold;    
+}
+.Texto_sede
+{
+	color: #591850;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 30px;
+    font-weight: bold;   
+
+}
+.Textoi
+{
+	color: #591850;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 50px;
+    font-weight: bold;   
+}
+
+.slider {
+	width: 1000px;
+    height: 1000px;
+	margin: 70px 350px;
+	overflow: hidden;
+	justify-content: space-between;
+	
+
+}
+h1{
+	color: #591850;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 18px;
+    font-weight: bold;   
+
+}
+
+  
+	.Border{
+		background-color: green;
+		width: 400px;
+	  height: 200px;
+	  margin-right: 0px ;
+	  margin-bottom: 0px;
+	  margin-left: 50px;
+	  margin-top: 150px;
+	}
+	
+	
+	 
+	
+	.Border_Texto {
+		background-color: white;
+		width: 500px;
+	  height: 550px;
+	  margin-right: 00px ;
+	  margin-bottom: 100px;
+	  margin-left: 50px ;
+	  margin-top: 10px;
+	  border:0px double #2697DF;
+
+	}
+
+	.Border_multimedia{
+
+		background-color:white;
+		width: flex;
+	  height: 800px;
+	  margin-right: 50px ;
+	  margin-bottom: 0px;
+	  margin-left:50px ;
+	  margin-top: 1px;
+	  }
+	  @media screen and (max-width: 800px) {
+  		.Border_multimedia{
+			flex-direction: row;
+		}	
+		.Redes_viusual_green{
+				flex-direction: row;
+		}
+
+	}
+	  .Redes_viusual_green
+	  {
+		background-color: white;
+		width: 320px;
+		height: 500px;
+		margin-left: 60px;
+		border-right: 20px;
+		margin-bottom: 20px;
+		border-radius: 0px 0px 42px 43px;
+		-moz-border-radius: 0px 0px 42px 43px;
+		-webkit-border-radius: 0px 0px 42px 43px;
+		border: 3px solid #000000;
+		
+	  }
+	  .Border_video
+	  {
+		
+		width: 800px;
+	  height: 490px;
+	  margin-right: 00px ;
+	  margin-bottom: 00px;
+	  margin-left: 100px ;
+	  margin-top: 0px;
+	  border: 0px solid #000000
+	  
+	  }
+	.Borde-Noticia1{
+		
+		background-color: white;
+		width: 350px;
+	  height: 500px;
+	  margin-right: 00px ;
+	  margin-bottom: 00px;
+	  margin-left:50px ;
+	  margin-top: 0px;
+	  border: 2px double #591850;
+
+	}
+	.Borde-Noticia2{
+		
+		background-color: red;
+		width: 400px;
+	  height: 200px;
+	  margin-right: 00px ;
+	  margin-bottom: 00px;
+	  margin-left:50px ;
+	  margin-top: 0px;
+
+	}
+	.Borde-Noticia3{
+		
+		background-color: red;
+		width: 400px;
+	  height: 200px;
+	  margin-right: 00px ;
+	  margin-bottom: 00px;
+	  margin-left:50px ;
+	  margin-top: 0px;
+
+	}
+
+	
+	
+.Noticia3
+{
+	background-color: #88B12B;
+		width: 430px;
+	  height: 350px;
+	  margin-right: 100px ;
+	  margin-bottom: 00px;
+	  margin-left: 0px ;
+	  margin-top: 0px;
+	  border-radius: 82px 83px 125px 164px;
+	  -moz-border-radius: 82px 83px 125px 164px;
+	  -webkit-border-radius: 82px 83px 125px 164px;
+	  border: 0px solid #000000;
+			border:3px solid black;
+	  
+	}	
+
+	.Texto_bot
+{
+    color: #591850;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 22px;
+    font-weight: bold;    
+
+}
+.Border_uwu
+{
+	background-color: white;
+		width: 1400px;
+	  height: flex;
+	  margin-right: 0px ;
+	  margin-bottom: 00px;
+	  margin-left: 50px ;
+	  margin-top: 0px;
+	  border:5px solid black;
+	  background-image: url("image3.png");
+}
+
+.Bor_horario1
+{
+	background-color: #88B12B;
+	width: 400px;
+	height: 300px;
+	margin-left:300px ;
+	margin-right: 50px;
+	margin-top: 10px;
+	border:10px double #591850;
+  color: #591850;
+
+}
+.Bor_horario2
+{
+	background-color: #88B12B;
+	width: 400px;
+	height: 300px;
+	margin-top: 10px;
+	border:10px double #591850;
+  color: #591850;
+}
+
+
+.Border_sede1
+{
+background-color: #88B12B;
+width: 800px;
+height: 580px ;
+margin-bottom: 20px;
+margin-left: 100px;
+margin-top: 20px;
+margin-right: 0;
+border-radius: 0px 0px 81px 79px;
+-moz-border-radius: 0px 0px 81px 79px;
+-webkit-border-radius: 0px 0px 81px 79px;
+border: 0px solid #000000;
+
+
+border:2px solid black
+
+
+
+}
+.Border_sede2
+{
+	background-color: #88B12B;
+	width: 750px;
+height: 580px ;
+margin-bottom: 20px;
+margin-left: 50px;
+margin-top: 20px;
+border-radius: 0px 0px 81px 79px;
+-moz-border-radius: 0px 0px 81px 79px;
+-webkit-border-radius: 0px 0px 81px 79px;
+border: 0px solid #000000;
+
+
+border:2px solid black
+
+}
+
+.border_direccion1
+{
+	background-color: #88B12B;
+width: 300px;
+height: 300px ;
+margin-bottom: 20px;
+margin-left: 0px;
+margin-right: 120px;
+margin-top: 20px;
+border-radius: 82px 83px 83px 84px;
+-moz-border-radius: 82px 83px 83px 84px;
+-webkit-border-radius: 82px 83px 83px 84px;
+border: 0px outset #000000;
+
+}
+	
+.border_direccion2
+{
+	background-color: #88B12B;
+width: 500px;
+height: 500px ;
+margin-bottom: 20px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 20px;
+border-radius: 82px 83px 83px 84px;
+-moz-border-radius: 82px 83px 83px 84px;
+-webkit-border-radius: 82px 83px 83px 84px;
+border: 0px outset #000000;
+
+}
+	
+
+
+.border_mapa
+{
+	width: flex;
+	height: 500px;
+	background-color: #88B12B;
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 0px 0px 83px 84px;
+	-moz-border-radius: 0px 0px 83px 84px;
+	-webkit-border-radius: 0px 0px 83px 84px;
+	border: 0px outset #000000;
+	border:3px solid black;
+
+
+}
+
+.Border_Galeria
+{ 
+	
+	width: 700px;
+	height: 280px  ;
+	margin-left: 400px;
+	margin-right: 0px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+.Border_Galeria2
+{ 
+	
+	width: 700px;
+	height: 280px  ;
+	margin-left: 400px;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+
+	
+
+}
+.Borde_fotos
+{
+	background-color:none;
+    width: 530px;
+  height: px;
+  margin-right: 0px ;
+  margin-bottom: 00px;
+  margin-left: 50px ;
+  margin-top: 10px;
+  border:10px double #591850;
+  color: #591850;
+}
+
+.Borde_fotos2
+{
+	background-color:none;
+    width: 530px;
+  height: px;
+  margin-right: 0px ;
+  margin-bottom: 00px;
+  margin-left: 50px ;
+  margin-top: 10px;
+  border:10px double #591850;
+  color: #591850;
+
+}
+.caja_titulo
+{
+	background-color: #88B12B;
+	width:100px ;
+	height: 100px;
+	margin-left: 200px;
+	border:2px solid black;
+
+}
+.border_botones_sedes
+{
+	background-color: white;
+	width:flex ;
+	height: 200px;
+	margin-left: 60px;
+	margin-right: 60px;
+	
+	
+}
+.Borde_atencion
+{ 
+	background-color: #591850;
+	width: 280px;
+	height: 50px;
+	margin-left: 300px;
+	margin-bottom: 20px;
+	border-radius: 33px 34px 36px 37px;
+	-moz-border-radius: 33px 34px 36px 37px;
+	-webkit-border-radius: 33px 34px 36px 37px;
+	border: 0px solid #000000;
+}
+.Borde_atencion2
+{ 
+	background-color: #591850;
+	width: 280px;
+	height: 50px;
+	margin-left: 3px;
+	margin-bottom: 20px;
+	border-radius: 33px 34px 36px 37px;
+	-moz-border-radius: 33px 34px 36px 37px;
+	-webkit-border-radius: 33px 34px 36px 37px;
+	border: 0px solid #000000;
+}
+.Borde_atencion3
+{ 
+	background-color: #591850;
+	width: 280px;
+	height: 50px;
+	margin-left: 3px;
+	margin-bottom: 20px;
+	border-radius: 33px 34px 36px 37px;
+	-moz-border-radius: 33px 34px 36px 37px;
+	-webkit-border-radius: 33px 34px 36px 37px;
+	border: 0px solid #000000;
+}
+.Border-carrus
+{	
+	width: flex;
+	height: 800px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid #000000;
+
+}
+.border_escrito_inicio
+{
+	border-color: antiquewhite;
+	width: 350px;
+	height:150px ;
+	margin-bottom: 0px;
+	margin-top: 80px;
+	margin-left: 250px;
+	border:0px solid #000000; 
+
+}
+.titulo_GREEN
+{
+	color: #591850;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 50px;
+    font-weight: bold; 
+}
+.titulo_GREEN2
+{
+	color: #88B12B;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 50px;
+    font-weight: bold;  -moz-text-stroke-width: 2px;
+
+	  -webkit-text-stroke-width: 2px;
+	
+	  -moz-text-stroke-color: #000000;
+	
+	  -webkit-text-stroke-color: #ffffff;
+	
+}
+.borde_calidad
+{
+	background-color: #88B12B;
+	width: 450px;
+	height: 500px;
+	margin-left: 70px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border: 2px solid black;
+	
+}
+.borde_Asesoria
+{ 
+	background-color: #591850;
+	width: 450px;
+	height: 500px;
+	margin-left: 10px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border: 2px solid black
+	
+}
+.Borde_Precios
+{
+	background-color: #2697DF;
+	width: 450px;
+	height: 500px;
+	margin-right: 50px;
+	margin-left: 10px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border: 2px solid black
+	
+	
+}
+.Texto2
+{
+    color: white;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 20px;
+    font-weight: bold;    
+
+}
+.Texto3
+{
+	color: white;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 20px;
+    font-weight: bold;   
+}
+.border_titulo
+{
+	width: 400px;
+	height: 100px;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	
+	
+}
+.border_contenido
+{
+	width: 350px;
+	height: 250px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	border-top: 0px;
+	
+
+
+}
+.border_contenido2
+{
+	width: 350px;
+	height: 250px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	
+	
+
+}
+.border_contenido3{
+	width: 350px;
+	height: 250px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	border-top: 0px;
+	
+
+}
+.color_blanco{
+	color: white;
+    font-family: 'Quicksand Bold', arial;
+    font-size: 30px;
+    font-weight: bold;   
+
+}
+.border_metodos_pagos
+{
+	background-color: white;
+	justify-content: center;
+	width: 530px;
+	height: 280px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border:2px solid black
+}
+.border_metodos_pagos_blanco
+{
+	background-color: wheat;
+	
+	width: 555px;
+	height: 310px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-left: 150px;
+	border:2px solid black;
+}
+.border_titulo{
+	margin-left: 50px;
+	margin-bottom: 120px;
+	border: 2px solid black;
+}
